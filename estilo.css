@@ -18,6 +18,7 @@ section {
     margin: auto;
     padding: 20px;
     box-shadow: 5px 5px 20px rgb(0, 0, 0);
+    font: normal 15pt Arial;
 }
 
 img {
@@ -50,4 +51,8 @@ div.oi {
 
 div.oi>p {
     margin: 10px;
+}
+
+legend {
+    font: normal 10pt Arial;
 }
