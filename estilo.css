@@ -12,9 +12,9 @@ header {
 }
 
 section {
-    background-color: cornsilk;
+    background-color: rgb(255, 255, 255);
     border-radius: 10px;
-    width: 600px;
+    width: 800px;
     margin: auto;
     padding: 20px;
     box-shadow: 5px 5px 20px rgb(0, 0, 0);
@@ -29,4 +29,25 @@ footer {
     font-style: italic;
     border-top: 1px solid rgba(0, 0, 0, 0.479);
     margin-top: 50px;
+}
+
+.fundo {
+    display: inline-block;
+    position: relative;
+    align-items: center;
+    width: 200px;
+    margin: 10px;
+}
+
+input {
+    width: 60px;
+}
+
+div.oi {
+    display: inline-block;
+    margin: 50px;
+}
+
+div.oi>p {
+    margin: 10px;
 }
